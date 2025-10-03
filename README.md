@@ -1,2 +1,2 @@
-# CC_Benigno_Parra
-Repositorio en el que se desarrollarán las prácticas de Cloud Computing
+# Cloud Computing
+Repositorio para almacenar el proyecto de la asignatura de Cloud Comuting del curso 25/26 del Máster Universitario en Ingeniería Informática en la UGR
