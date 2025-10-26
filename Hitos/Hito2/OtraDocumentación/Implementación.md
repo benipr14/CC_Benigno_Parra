@@ -5,35 +5,35 @@ En este archivo se va a explicar todo lo relacionado con la implementación real
 ## Base de datos
 Para la base de datos he elegido MongoDB ya que es la que más he utilizado en la carrera, además de que es muy sencilla de utilizar y conectar mediante código.
 
-![Colecciones](imagenes/colecciones.png)
+![Colecciones](../imagenes/colecciones.png)
 
 Dentro de mi base de datos he creado 4 colecciones: usuarios, administradores, apuestas y partidos. Vamos a verlos uno a uno.
 
 ### Usuarios
 Para los usuarios se almacenan los siguientes valores:
 
-![Usuarios](imagenes/usuario.png)
+![Usuarios](../imagenes/usuario.png)
 
 Su usuario, contraseña y saldo, así como un array con sus apuestas que inicialmente está vacío.
 
 ### Administradores
 Para los administradores se almacenan:
 
-![Administrador](imagenes/administrador.png)
+![Administrador](../imagenes/administrador.png)
 
 Su usuario, contraseña y su rol (puede ser admin o moderador)
 
 ### Partidos
 Para los partidos se almacenan:
 
-![Partido](imagenes/partido.png)
+![Partido](../imagenes/partido.png)
 
 Se guarda el nombre del equipo local y visitante, las cuotas para los 3 posibles resultados (local, empate o visitante), la fecha y hora, y el resultado el cual se inicializa a "Pendiente" por defecto.
 
 ### Apuestas
 Para las apuestas se guardan:
 
-![Apuesta](imagenes/apuesta.png)
+![Apuesta](../imagenes/apuesta.png)
 
 Se almacena el usuario que ha hecho la apuesta junto con el partido apostado, la opción que se elige (1, X, 2) y la cantidad apostada.
 

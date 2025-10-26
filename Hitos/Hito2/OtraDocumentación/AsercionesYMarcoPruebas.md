@@ -3,8 +3,8 @@ Para la biblioteca de aserciones se ha decidido hacer uso de las aserciones de p
 
 Ejemplos código:
 
-![Ej_assert](imagenes/ej_assert.png)
-![Ej_approx](imagenes/ej_approx.png)
+![Ej_assert](../imagenes/ej_assert.png)
+![Ej_approx](../imagenes/ej_approx.png)
 
 
 El enfoque es mas cercano a TDD, ya que utiliza asserts directos y fixtures y las funciones son pequeñas con comprobaciones precisas.

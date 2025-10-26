@@ -3,7 +3,7 @@ Para la gestión de tareas se ha decidido utilizar make porque es fácil de usar
 
 Para configurar el makefile se ha optado por 3 opciones, todas ellas trabajan con un entorno aislado virtualenv:
 
-![makefile](imagenes/makefile.png)
+![makefile](../imagenes/makefile.png)
 
 * La primera de ellas es install, la cual se encarga de instalar todas las dependencias necesarias. Estas dependencias se han escrito en forma de columna en un .txt para que sea más fácil de ejecutar en el makefile.
 
