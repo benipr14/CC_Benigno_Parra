@@ -20,7 +20,4 @@ jobs:
           make install
       - name: Run tests
         run: make test
-      - name: Clean workspace
-        if: always()
-        run: |
-          make clean
+        
