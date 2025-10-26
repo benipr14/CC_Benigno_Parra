@@ -1,6 +1,6 @@
 # Implementación
 
-En este archivo se va a proceder a explicar todo lo relacionado con la implementación realizada en esta práctica.
+En este archivo se va a explicar todo lo relacionado con la implementación realizada en esta práctica.
 
 ## Base de datos
 Para la base de datos he elegido MongoDB ya que es la que más he utilizado en la carrera, además de que es muy sencilla de utilizar y conectar mediante código.
@@ -38,11 +38,11 @@ Para las apuestas se guardan:
 Se almacena el usuario que ha hecho la apuesta junto con el partido apostado, la opción que se elige (1, X, 2) y la cantidad apostada.
 
 ## Funciones
-Este código se puede encontrar [aquí](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito2/funciones.py)
+El código se puede encontrar [aquí](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito2/funciones.py)
 
-En resumen, se han creado las operaciones CRUD para las colecciones pero con matices, por ejemplo, no tiene sentido el crear_apuesta sino el hacer_apuesta, ya que se requiere de un id_usuario y un id_partido para almacenar. Además, se han añadido algunas otras funciones como: sacar_saldo_usuario, cambiar_cuota_partido, cancelar_apuesta y demás que se pueden consultar.
+En resumen, se han creado las operaciones CRUD para las colecciones pero con matices, por ejemplo, no tiene sentido el crear_apuesta, sino el hacer_apuesta, ya que se requiere de un id_usuario y un id_partido para almacenar. Se han programado todas las casuísticas posibles para que no ocurran cosas que deberian suceder. Además, se han añadido algunas otras funciones como: sacar_saldo_usuario, cambiar_cuota_partido, cancelar_apuesta y demás que se pueden consultar.
 
 ## Tests
-Se puede ver su código [aquí](https://github.com/benipr14/CC_Benigno_Parra/blob/main/tests/test_funciones.py)
+El código se puede encontrar [aquí](https://github.com/benipr14/CC_Benigno_Parra/blob/main/tests/test_funciones.py)
 
-Se hace uso de los elementos explicados en los otros apartados y se comprueban las funciones una a una. Importante decir que se ha comprobado que cada función haga lo que se espera que haga y también lo que no se espera, es decir, que dé el error adecuado al intentar hacer ilegal, por ejemplo que el usuario intente cancelar una apuesta de un partido que ya se ha jugado.
+Se hace uso de los elementos explicados en los otros apartados y se comprueban las funciones una a una. Importante decir que se ha comprobado que cada función haga lo que se espera que haga y también lo que no se espera, es decir, que dé el error adecuado al intentar hacer algo ilegal, por ejemplo que el usuario intente cancelar una apuesta de un partido que ya se ha jugado.

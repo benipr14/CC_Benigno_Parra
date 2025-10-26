@@ -2,6 +2,11 @@
 
 Repositorio para almacenar el proyecto de la asignatura de Cloud Comuting del curso 25/26 del Máster Universitario en Ingeniería Informática en la UGR
 
+# Para ejecutar
+
+* 1º: make install
+* 2º: make test
+
 # Descripción del proyecto
 
 Este proyecto consiste en una aplicación de apuestas deportivas, enfocada principalmente en el fútbol. La plataforma permitirá a los usuarios registrados ingresar saldo en sus cuentas y seleccionar las apuestas que deseen realizar en los distintos partidos disponibles.

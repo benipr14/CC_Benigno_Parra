@@ -1,5 +1,5 @@
 # Gestor de tareas
-Para la gestión de tareas se ha decidido usar make porque es fácil de usar y ampliamente conocido, además permite crear venv, instalar dependencias y ejecutar tests. También reproduce exactamente los pasos en local y en CI.
+Para la gestión de tareas se ha decidido utilizar make porque es fácil de usar y ampliamente conocido, además permite crear venv, instalar dependencias y ejecutar tests. También reproduce exactamente los pasos en local y en CI.
 
 Para configurar el makefile se ha optado por 3 opciones, todas ellas trabajan con un entorno aislado virtualenv:
 
