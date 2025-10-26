@@ -25,3 +25,5 @@ Gracias a tener este proyecto en la nube se permite el acceso desde cualquier lu
 Aquí irán apareciendo los distintos hitos según se implementen en el repositorio:
 
 * Hito 1: [Ajustes del perfil, repositorio de prácticas y descripción del proyecto](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito1/Hito1.md)
+
+* Hito 2: [Integración continua](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito2/Hito2.md)
