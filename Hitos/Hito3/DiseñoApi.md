@@ -39,9 +39,9 @@ Errores y contratos:
 Tests y estrategia de verificación:
 
 * Tipos de tests:
-    Unit tests: test_usuario_service.py, test_partido_service.py, test_apuesta_service.py — prueban lógica de negocio aislada con MemoryUserRepository.
-    Integration tests (API): tests/test_api_*.py — usan FastAPI TestClient y sobrescriben dependencia con mongomock o MemoryUserRepository.
-    Persistence tests (Mongo): tests/test_mongo_*.py — validan comportamiento de MongoUserRepository.
+    * Unit tests: test_usuario_service.py, test_partido_service.py, test_apuesta_service.py — prueban lógica de negocio aislada con MemoryUserRepository.
+    * Integration tests (API): tests/test_api_*.py — usan FastAPI TestClient y sobrescriben dependencia con mongomock o MemoryUserRepository.
+    * Persistence tests (Mongo): tests/test_mongo_*.py — validan comportamiento de MongoUserRepository.
 * Fixtures:
 conftest.py define mongo_client, mongo_repo, client (TestClient que inyecta repo).
 
