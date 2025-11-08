@@ -47,3 +47,4 @@ conftest.py define mongo_client, mongo_repo, client (TestClient que inyecta repo
 
 La estructura queda de la siguiente manera:
 ![Estructura API](imagenes/Estructura.png)
+.

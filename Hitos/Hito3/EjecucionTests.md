@@ -8,3 +8,4 @@ make test-all (para ejecutar todos los tests)
 Un ejemplo de la salida correcta es:
 
 ![Ejecución tests](imagenes/Tests.png)
+

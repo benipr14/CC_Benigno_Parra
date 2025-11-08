@@ -5,7 +5,7 @@ Repositorio para almacenar el proyecto de la asignatura de Cloud Comuting del cu
 # Para ejecutar
 
 * 1º: make install
-* 2º: make test
+* 2º: make test-all
 
 # Descripción del proyecto
 
