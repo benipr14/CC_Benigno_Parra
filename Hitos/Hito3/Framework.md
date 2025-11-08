@@ -1,3 +1,3 @@
 # Framework para el microservicio
 
-He elegido FastAPI para este microservicio porque combina alto rendimiento (ASGI/async), validación automática (Pydantic) y documentación OpenAPI integrada, lo que acelera el desarrollo y mejora la calidad de la API. FastAPI permite implementar endpoints tipados, probarlos fácilmente y desplegarlos con servidores ASGI (uvicorn), siendo una opción práctica y eficiente para microservicios REST en Python.
+He elegido FastAPI para este microservicio porque combina alto rendimiento (ASGI/async), validación automática (Pydantic) y documentación OpenAPI integrada, lo que acelera el desarrollo y mejora la calidad de la API. Además, FastAPI permite implementar endpoints tipados, probarlos fácilmente y desplegarlos con servidores ASGI (uvicorn), siendo una opción práctica y eficiente para microservicios REST en Python.
