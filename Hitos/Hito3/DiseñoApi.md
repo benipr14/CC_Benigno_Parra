@@ -45,6 +45,5 @@ Tests y estrategia de verificación
 * Fixtures:
 conftest.py define mongo_client, mongo_repo, client (TestClient que inyecta repo).
 
-La estructura queda de la siguiente manera:
+La estructura queda de la siguiente manera:<br><br>
 ![Estructura API](imagenes/Estructura.png)
-.
