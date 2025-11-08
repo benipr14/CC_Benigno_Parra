@@ -34,7 +34,7 @@ Rutas / tareas:
 
 Errores y contratos:
 
-Los servicios devuelven resultados o lanzan/indican error por contrato; los routers traducen eso a códigos HTTP (400/404/201).
+* Los servicios devuelven resultados o lanzan/indican error por contrato; los routers traducen eso a códigos HTTP (400/404/201).
 
 Tests y estrategia de verificación
 
@@ -45,6 +45,5 @@ Tests y estrategia de verificación
 * Fixtures:
 conftest.py define mongo_client, mongo_repo, client (TestClient que inyecta repo).
 
-Para ejecutar los tests hacer:
-make install
-make test-all
+La estructura queda de la siguiente manera:
+![Estructura API](imagenes/Estructura.png)

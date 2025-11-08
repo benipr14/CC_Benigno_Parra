@@ -28,3 +28,6 @@ Herramientas y configuración usada:
     File: RotatingFileHandler para persistencia local y auditoría.
 * Formato:
     "%(asctime)s %(levelname)s %(name)s %(message)s" (timestamp, nivel, logger, mensaje).
+
+En ejemplo de los logs de salida:
+![ejemplo logs](imagenes/EjemploLogs.png)
