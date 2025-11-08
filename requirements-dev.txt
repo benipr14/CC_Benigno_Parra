@@ -1,3 +1,10 @@
+fastapi
+uvicorn
+pytest
+httpx
+mongomock
+pydantic
+black
 pytest
 mongomock
 pytest-mock
