@@ -2,11 +2,11 @@
 El disñeo general de la API es:
 
 * Arquitectura por capas: La aplicación está organizada en capas bien separadas:
-    * * app/api/: Routers (endpoints) y dependencias — interfaz HTTP.
-    * * app/services/: Lógica de negocio (casos de uso) — sin conocimiento de HTTP.  
-    * * app/repositories/: Abstracción de persistencia (protocols en base.py) + implementaciones (memory/mongo).
-    * * app/models/: Pydantic schemas (DTOs) para validación entrada/salida.
-    * * app/core/: configuración cross-cutting (logging).
+    app/api/: Routers (endpoints) y dependencias — interfaz HTTP.
+    app/services/: Lógica de negocio (casos de uso) — sin conocimiento de HTTP.  
+    app/repositories/: Abstracción de persistencia (protocols en base.py) + implementaciones (memory/mongo).
+    app/models/: Pydantic schemas (DTOs) para validación entrada/salida.
+    app/core/: configuración cross-cutting (logging).
 * Principio central: los routers solo traducen HTTP <-> modelos y delegan toda la lógica a los servicios. Los servicios usan la abstracción de repositorio (FullRepo) sin acoplarse a la implementación concreta.
 
 Cómo se consigue el desacoplo:
@@ -39,9 +39,9 @@ Los servicios devuelven resultados o lanzan/indican error por contrato; los rout
 Tests y estrategia de verificación
 
 * Tipos de tests:
-    * * Unit tests: test_usuario_service.py, test_partido_service.py, test_apuesta_service.py — prueban lógica de negocio aislada con MemoryUserRepository.
-    * * Integration tests (API): tests/test_api_*.py — usan FastAPI TestClient y sobrescriben dependencia con mongomock o MemoryUserRepository.
-    * * Persistence tests (Mongo): tests/test_mongo_*.py — validan comportamiento de MongoUserRepository.
+    Unit tests: test_usuario_service.py, test_partido_service.py, test_apuesta_service.py — prueban lógica de negocio aislada con MemoryUserRepository.
+    Integration tests (API): tests/test_api_*.py — usan FastAPI TestClient y sobrescriben dependencia con mongomock o MemoryUserRepository.
+    Persistence tests (Mongo): tests/test_mongo_*.py — validan comportamiento de MongoUserRepository.
 * Fixtures:
 conftest.py define mongo_client, mongo_repo, client (TestClient que inyecta repo).
 
