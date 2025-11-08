@@ -1,7 +1,7 @@
 PY ?= python3
 PIP ?= pip
 
-.PHONY: test install clean
+.PHONY: test install clean finish-partido test-integration test-all
 
 # Crear/instalar dependencias en un virtualenv local
 install:
@@ -12,6 +12,15 @@ install:
 # Ejecutar tests
 test:
 	.venv/bin/python -m pytest -q
+
+# Ejecutar tests de integración (API y pruebas que usan Mongo/mongomock)
+test-integration:
+	.venv/bin/python -m pytest -q tests/test_api_*.py tests/test_mongo*.py tests/test_ping.py
+
+# Ejecutar todos los tests (unidad + integración) y el caso específico finish-partido
+test-all:
+	$(MAKE) test
+	$(MAKE) test-integration
 
 # Limpiar artefactos locales y el virtualenv (.venv)
 clean:
