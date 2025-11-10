@@ -3,14 +3,13 @@ from typing import Protocol, Optional, Dict, Any
 
 class UserRepo(Protocol):
     def insertar_usuario(self, usuario: Dict) -> str:
-        ...
+        pass
 
     def obtener_usuario(self, uid: str) -> Optional[Dict]:
-        ...
+        pass
 
     def find_by_username(self, username: str) -> Optional[Dict]:
-        ...
-
+        pass
 
 class FullRepo(UserRepo, Protocol):
     # Partidos
