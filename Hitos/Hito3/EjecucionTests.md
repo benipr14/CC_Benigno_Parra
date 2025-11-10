@@ -1,5 +1,5 @@
 # Correcta ejecucución de los tests
-todos los tests están definidos a los siguientes archivos:
+Todos los tests están definidos a los siguientes archivos:
 
 ![tests](imagenes/tests_estructura.png)
 
