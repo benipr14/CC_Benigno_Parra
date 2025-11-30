@@ -26,14 +26,23 @@ Decisiones clave
 - Usar tres réplicas muestra escalado horizontal básico; mapear puertos distintos facilita pruebas manuales y automáticas.
 - `depends_on` evita condiciones de carrera al arrancar el stack en pruebas locales.
 
-Uso mínimo para levantar el stack (local):
+Cómo usarlo (requiere Docker y Docker Compose):
+
+1) Construir y arrancar el stack en primer plano:
 
 ```bash
 docker compose -f compose.yaml up --build
 ```
 
-Para bajar y borrar volúmenes:
+2) Acceder a la API desde el host:
+
+- `http://localhost:8000/ping` -> app1
+- `http://localhost:8001/ping` -> app2
+- `http://localhost:8002/ping` -> app3
+
+3) Detener y eliminar contenedores/volúmenes:
 
 ```bash
 docker compose -f compose.yaml down -v
 ```
+

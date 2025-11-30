@@ -29,5 +29,5 @@ docker compose -f compose.yaml down -v
 
 Notas importantes:
 
-- Para demostrar el uso de un contenedor de datos, `compose.yaml` crea el servicio `data` basado en `busybox` que monta el volumen `app_data`. Las réplicas montan el mismo volumen en `/app/data`. Puedes usar esa ruta para guardar archivos o datos compartidos entre réplicas.
+- Para demostrar el uso de un contenedor de datos, `compose.yaml` crea el servicio `data` basado en `busybox` que monta el volumen `app_data`. Las réplicas montan el mismo volumen en `/app/data`.
 - La configuración está hecha con ficheros (`Dockerfile`, `compose.yaml`) y variables de entorno para permitir reproducibilidad.
