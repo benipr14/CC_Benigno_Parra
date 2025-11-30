@@ -1,0 +1,51 @@
+services:
+  data:
+    image: busybox:1.36
+    # This container's only purpose is to own the named volume used by the app
+    volumes:
+      - app_data:/app/data
+    command: ["sh", "-c", "sleep 3600"]
+
+  app1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - data
+    volumes:
+      - app_data:/app/data
+    ports:
+      - "8000:8000"
+    environment:
+      - INSTANCE=app1
+
+  app2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - data
+    volumes:
+      - app_data:/app/data
+    ports:
+      - "8001:8000"
+    environment:
+      - INSTANCE=app2
+
+  app3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - data
+    volumes:
+      - app_data:/app/data
+    ports:
+      - "8002:8000"
+    environment:
+      - INSTANCE=app3
+
+volumes:
+  app_data:
+    # named volume to persist data between containers
+    driver: local

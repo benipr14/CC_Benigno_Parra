@@ -17,6 +17,13 @@ test:
 test-integration:
 	.venv/bin/python -m pytest -q tests/test_api_*.py tests/test_mongo*.py tests/test_ping.py
 
+# Integration tests that require Docker/Compose (compose-based cluster)
+test-integration-compose:
+	.venv/bin/python -m pytest -q tests/test_compose_integration.py
+
+# Run all tests including compose integration
+test-all: test test-integration test-integration-compose
+
 # Ejecutar todos los tests (unidad + integración) y el caso específico finish-partido
 test-all:
 	$(MAKE) test
