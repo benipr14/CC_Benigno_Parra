@@ -20,7 +20,7 @@ Volúmenes
 
 - `app_data`: volumen nombrado (driver `local`) usado para persistencia simple y para demostrar compartición entre réplicas.
 
-Decisiones clave (resumen)
+Decisiones clave
 
 - Separar un contenedor de datos permite demostrar persistencia compartida sin añadir almacenamiento externo.
 - Usar tres réplicas muestra escalado horizontal básico; mapear puertos distintos facilita pruebas manuales y automáticas.
@@ -37,5 +37,3 @@ Para bajar y borrar volúmenes:
 ```bash
 docker compose -f compose.yaml down -v
 ```
-
-Contenido limitado a una documentación breve y práctica del fichero `compose.yaml`, sin entrar en detalles de CI o despliegue remoto.

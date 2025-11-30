@@ -2,11 +2,6 @@
 
 Repositorio para almacenar el proyecto de la asignatura de Cloud Comuting del curso 25/26 del Máster Universitario en Ingeniería Informática en la UGR
 
-# Para ejecutar
-
-* 1º: make install
-* 2º: make test-all
-
 # Descripción del proyecto
 
 Este proyecto consiste en una aplicación de apuestas deportivas, enfocada principalmente en el fútbol. La plataforma permitirá a los usuarios registrados ingresar saldo en sus cuentas y seleccionar las apuestas que deseen realizar en los distintos partidos disponibles.
@@ -34,3 +29,5 @@ Aquí irán apareciendo los distintos hitos según se implementen en el reposito
 * Hito 2: [Integración continua](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito2/Hito2.md)
 
 * Hito 3: [Creación de microservicios](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito3/Hito3.md)
+
+* Hito 4 [Composición de servicios](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito4/Readme.md)
