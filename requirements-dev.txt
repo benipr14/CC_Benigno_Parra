@@ -10,3 +10,4 @@ mongomock
 pytest-mock
 pymongo
 black
+prometheus_client
