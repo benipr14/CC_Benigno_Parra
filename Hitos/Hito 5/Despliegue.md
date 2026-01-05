@@ -13,7 +13,6 @@ Resumen del flujo recomendado
 
 Secrets y variables necesarias
 -
-- `GHCR_TOKEN` (opcional si `GITHUB_TOKEN` no permite push al GHCR): Personal Access Token con permisos `write:packages` si decide publicar en GHCR.
 - `FLY_API_TOKEN`: token de la cuenta de Fly para autenticar `flyctl` desde CI (si se usa `flyctl` en CI).
 - `FLY_APP_NAME`: nombre de la aplicación en Fly.
 - `GITHUB_TOKEN`: token automático disponible en Actions, útil para operaciones con GHCR si la política del repositorio lo permite.

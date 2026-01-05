@@ -31,3 +31,5 @@ Aquí irán apareciendo los distintos hitos según se implementen en el reposito
 * Hito 3: [Creación de microservicios](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito3/Hito3.md)
 
 * Hito 4 [Composición de servicios](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito4/Readme.md)
+
+* Hito 5 [Despliegue de la aplicación en un IaaS o PaaS](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito5/Hito5.md)

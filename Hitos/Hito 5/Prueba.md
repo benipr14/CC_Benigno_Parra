@@ -23,10 +23,11 @@ Notas sobre el comando
 Captura de resumen en consola:
 - Para guardar también el resumen que muestra `k6` en consola.
 
-![consola](imagenes/conola.png)
+![consola](imagenes/consola.png)
 
 
-Procesado básico y extracción de métricas (comandos útiles)
+Procesado básico y extracción de métricas, algunos comandos útiles:
+
 - Contar entradas de fallo HTTP (si las hay):
   ```bash
   grep -c '"http_req_failed"' scripts/evidence/k6_results.json || true

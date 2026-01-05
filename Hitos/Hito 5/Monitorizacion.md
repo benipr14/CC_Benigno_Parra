@@ -27,11 +27,6 @@ Componentes y justificación
   - Por qué: permite crear dashboards legibles para mostrar evidencias (p95, errores, throughput) y compartir capturas.
   - Dónde: `observability/grafana/provisioning/` contiene datasources/dashboards JSON de ejemplo.
 
-- **Grafana Agent / remote_write (opcional)**
-  - Qué: agente para enviar métricas a Grafana Cloud (remote_write) o a otro backend.
-  - Por qué: útil si quieres centralizar métricas en la nube o usar un plan de Grafana remoto. Requiere API key/metrics publisher y endpoint correcto.
-  - Observación: en pruebas previas se obtuvo HTTP 401 si las claves no fueron correctas — asegurarse del tipo de key y endpoint exacto.
-
 Despliegue y ejecución local (cómo levantar la monitorización)
 -
 1. Levantar la aplicación (si no está corriendo):
@@ -63,7 +58,7 @@ Consultas Prometheus
 
 ![Prometheus](imagenes/Uno.png)
 
-- Tasa de errores por segundo, calculada desde métricas instrumentadas; permite correlacionar errores con picos de carga.:
+- Tasa de errores por segundo, calculada desde métricas instrumentadas; permite correlacionar errores con picos de carga:
   - `sum(rate(http_requests_total{status!~"2.."}[1m]))`
 
 ![Prometheus](imagenes/Dos.png)
