@@ -1,0 +1,32 @@
+[2m2026-01-05T07:40:57Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Pulling container image registry.fly.io/cc-benigno-parra@sha256:da3c520d639435e1cf2c6d205acd0a39685d40d8bf98e8747664be9e8f912271
+[2m2026-01-05T07:40:59Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Pulling container image registry.fly.io/cc-benigno-parra@sha256:da3c520d639435e1cf2c6d205acd0a39685d40d8bf98e8747664be9e8f912271
+[2m2026-01-05T07:41:02Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Successfully prepared image registry.fly.io/cc-benigno-parra@sha256:da3c520d639435e1cf2c6d205acd0a39685d40d8bf98e8747664be9e8f912271 (4.660229213s)
+[2m2026-01-05T07:41:03Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Configuring firecracker
+[2m2026-01-05T07:41:04Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Successfully prepared image registry.fly.io/cc-benigno-parra@sha256:da3c520d639435e1cf2c6d205acd0a39685d40d8bf98e8747664be9e8f912271 (5.103782295s)
+[2m2026-01-05T07:41:05Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Configuring firecracker
+[2m2026-01-05T07:43:50Z[0m proxy[7819012f506098] [32mfra[0m [[34minfo[0m]Starting machine
+[2m2026-01-05T07:43:50Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05T07:43:50.771872161 [01KE6HM79ME8R5XD3XECEN3PTM:main] Running Firecracker v1.12.1
+[2m2026-01-05T07:43:50Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05T07:43:50.772059279 [01KE6HM79ME8R5XD3XECEN3PTM:main] Listening on API socket ("/fc.sock").
+[2m2026-01-05T07:43:51Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 6f59af0a)...
+[2m2026-01-05T07:43:51Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m Preparing to run: `uvicorn app.api.main:app --host 0.0.0.0 --port 8000` as root
+[2m2026-01-05T07:43:51Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2026-01-05T07:43:51Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Machine started in 1.305s
+[2m2026-01-05T07:43:51Z[0m proxy[7819012f506098] [32mfra[0m [[34minfo[0m]machine started in 1.47351793s
+[2m2026-01-05T07:43:52Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026/01/05 07:43:52 INFO SSH listening listen_address=[fdaa:3c:2a57:a7b:506:cb69:75c3:2]:22
+[2m2026-01-05T07:43:53Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Started server process [640]
+[2m2026-01-05T07:43:53Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Waiting for application startup.
+[2m2026-01-05T07:43:53Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Application startup complete.
+[2m2026-01-05T07:43:53Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2m2026-01-05T07:43:54Z[0m proxy[7819012f506098] [32mfra[0m [[34minfo[0m]machine became reachable in 2.146411987s
+[2m2026-01-05T07:43:54Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:43:54,100 INFO app GET /ping 200 0.006s
+[2m2026-01-05T07:43:54Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:34974 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T07:45:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:45:12,322 INFO app GET /ping 200 0.001s
+[2m2026-01-05T07:45:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:40308 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T07:45:18Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:45:18,675 INFO app GET /metrics 307 0.000s
+[2m2026-01-05T07:45:18Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:37160 - "GET /metrics HTTP/1.1" 307 Temporary Redirect
+[2m2026-01-05T07:47:27Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:47:27,094 INFO app GET /metrics 307 0.000s
+[2m2026-01-05T07:47:27Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:46796 - "GET /metrics HTTP/1.1" 307 Temporary Redirect
+[2m2026-01-05T07:50:22Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:50:22,476 INFO app GET /metrics 307 0.000s
+[2m2026-01-05T07:50:22Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:33772 - "GET /metrics HTTP/1.1" 307 Temporary Redirect
+[2m2026-01-05T07:50:22Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 07:50:22,597 INFO app GET /metrics/ 200 0.002s
+[2m2026-01-05T07:50:22Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:33778 - "GET /metrics/ HTTP/1.1" 200 OK

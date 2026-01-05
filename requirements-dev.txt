@@ -11,3 +11,7 @@ pytest-mock
 pymongo
 black
 prometheus_client
+
+# OpenTelemetry (optional - needed only if you enable tracing)
+opentelemetry-sdk
+opentelemetry-exporter-otlp

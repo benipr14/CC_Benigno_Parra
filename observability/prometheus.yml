@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'cc-app'
+    static_configs:
+      # Use the app container names so Prometheus can scrape them once the
+      # Prometheus container is connected to the app network.
+      - targets: ['cc_benigno_parra-app1-1:8000', 'cc_benigno_parra-app2-1:8000', 'cc_benigno_parra-app3-1:8000']
+        labels:
+          service: cc-app

@@ -1,0 +1,24 @@
+ # Modern Grafana Agent expects a `metrics` section with configs.
+metrics:
+  wal_directory: /tmp/grafana-agent-wal
+  global:
+    scrape_interval: 15s
+  configs:
+    - name: cc-app
+      scrape_configs:
+        - job_name: 'cc-app'
+          static_configs:
+            # App instances started via docker-compose map ports 8000,8001,8002
+            - targets: ['host.docker.internal:8000','host.docker.internal:8001','host.docker.internal:8002']
+              labels:
+                service: cc-app
+      remote_write:
+        - url: "https://prometheus-prod-65-prod-eu-west-2.grafana.net/api/prom/push"
+          # Authentication: provide API key via basic_auth when running the agent.
+          basic_auth:
+            username: "apikey"
+            password: "${GRAFANA_API_KEY}"
+
+# Note: On Linux, `host.docker.internal` may not be available. If the agent
+# runs in Docker on Linux, replace targets with the host's Docker gateway IP
+# (usually `172.17.0.1`) or run the agent as a process on the host.
