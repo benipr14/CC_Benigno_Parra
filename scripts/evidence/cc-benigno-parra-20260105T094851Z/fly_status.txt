@@ -1,0 +1,11 @@
+[1mApp[0m
+  Name     = cc-benigno-parra                                        
+  Owner    = personal                                                
+  Hostname = cc-benigno-parra.fly.dev                                
+  Image    = cc-benigno-parra:deployment-01KE6MQ7EK8N8H99AMH0B7Q132  
+
+[1mMachines[0m
+PROCESS	ID            	VERSION	REGION	STATE  	ROLE	CHECKS	LAST UPDATED         
+app    	7819012f506098	11     	fra   	stopped	    	      	2026-01-05T08:35:29Z	
+app    	7819e11f507d98	11     	fra   	stopped	    	      	2026-01-05T08:35:29Z	
+

@@ -50,7 +50,7 @@ curl -sS https://cc-benigno-parra.fly.dev/metrics -o evidence/metrics_response.t
 flyctl logs --app cc-benigno-parra --since 10m > evidence/fly_logs.txt
 ```
 
-- Tomar un *smoke-test* automático y guardar salida (ver `scripts/smoke_test.sh`).
+ - Tomar un *smoke-test* automático mediante comandos inline (por ejemplo `curl -sSf https://<app>.fly.dev/ping`) o usar `scripts/collect_fly_evidence.sh` para comprobar endpoints y recoger logs.
 
 - Ejecutar una prueba de carga (k6) contra la URL pública y guardar resultados (ver ejemplo abajo).
 

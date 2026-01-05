@@ -1,0 +1,100 @@
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57892 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:09,043 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57908 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57918 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:09,632 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:09,654 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57934 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:09,709 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:09Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57948 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57960 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57968 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,060 INFO app GET /ping 200 0.003s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,061 INFO app GET /ping 200 0.003s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,062 INFO app GET /ping 200 0.003s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57982 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,063 INFO app GET /ping 200 0.004s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58002 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,063 INFO app GET /ping 200 0.005s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:57998 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,090 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58006 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,092 INFO app GET /ping 200 0.000s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58022 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58026 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,681 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,704 INFO app GET /ping 200 0.000s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58032 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:10,758 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:10Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58042 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,110 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58058 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,112 INFO app GET /ping 200 0.004s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58066 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,116 INFO app GET /ping 200 0.004s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58074 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,118 INFO app GET /ping 200 0.003s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58084 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,119 INFO app GET /ping 200 0.004s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58096 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,147 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58100 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,148 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58108 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58118 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,731 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,756 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58126 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:11,810 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:11Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58136 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,160 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58152 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,163 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58158 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,170 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58174 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,171 INFO app GET /ping 200 0.003s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58188 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,173 INFO app GET /ping 200 0.004s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58202 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,195 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58208 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,197 INFO app GET /ping 200 0.000s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58220 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58226 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,782 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,806 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58242 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58254 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:12Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:12,865 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,213 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58260 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,214 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58270 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,219 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58282 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,220 INFO app GET /ping 200 0.002s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58284 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,230 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58286 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,245 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58294 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,249 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58300 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]2026-01-05 08:27:13,833 INFO app GET /ping 200 0.001s
+[2m2026-01-05T08:27:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     172.16.23.218:58316 - "GET /ping HTTP/1.1" 200 OK
+[2m2026-01-05T08:33:13Z[0m proxy[7819012f506098] [32mfra[0m [[34minfo[0m]App cc-benigno-parra has excess capacity, autostopping machine 7819012f506098. 0 out of 1 machines left running (region=fra, process group=app)
+[2m2026-01-05T08:33:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m Sending signal SIGINT to main child process w/ PID 642
+[2m2026-01-05T08:33:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Shutting down
+[2m2026-01-05T08:33:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Waiting for application shutdown.
+[2m2026-01-05T08:33:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Application shutdown complete.
+[2m2026-01-05T08:33:13Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m]INFO:     Finished server process [642]
+[2m2026-01-05T08:33:14Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2026-01-05T08:33:14Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2026-01-05T08:33:14Z[0m app[7819012f506098] [32mfra[0m [[34minfo[0m][  390.433283] reboot: Restarting system
+[2m2026-01-05T08:35:26Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Pulling container image registry.fly.io/cc-benigno-parra@sha256:4f2243fe9f95261caa9704d8d2869d873158a53946f902b2f0bdc8cad40b7406
+[2m2026-01-05T08:35:26Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Pulling container image registry.fly.io/cc-benigno-parra@sha256:4f2243fe9f95261caa9704d8d2869d873158a53946f902b2f0bdc8cad40b7406
+[2m2026-01-05T08:35:28Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Successfully prepared image registry.fly.io/cc-benigno-parra@sha256:4f2243fe9f95261caa9704d8d2869d873158a53946f902b2f0bdc8cad40b7406 (1.694561666s)
+[2m2026-01-05T08:35:28Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Successfully prepared image registry.fly.io/cc-benigno-parra@sha256:4f2243fe9f95261caa9704d8d2869d873158a53946f902b2f0bdc8cad40b7406 (1.956191927s)
+[2m2026-01-05T08:35:29Z[0m runner[7819012f506098] [32mfra[0m [[34minfo[0m]Configuring firecracker
+[2m2026-01-05T08:35:29Z[0m runner[7819e11f507d98] [32mfra[0m [[34minfo[0m]Configuring firecracker

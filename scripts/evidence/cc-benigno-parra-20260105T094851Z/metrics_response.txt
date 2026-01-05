@@ -1,0 +1,84 @@
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 695.0
+python_gc_objects_collected_total{generation="1"} 31.0
+python_gc_objects_collected_total{generation="2"} 0.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 129.0
+python_gc_collections_total{generation="1"} 11.0
+python_gc_collections_total{generation="2"} 1.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="11",patchlevel="14",version="3.11.14"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.38293248e+08
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 5.3456896e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.7676065369e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 1.25
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 10.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 10240.0
+# HELP http_requests_total Total HTTP requests
+# TYPE http_requests_total counter
+http_requests_total{method="GET",path="/ping",status="200"} 1.0
+http_requests_total{method="GET",path="/metrics",status="307"} 1.0
+# HELP http_requests_created Total HTTP requests
+# TYPE http_requests_created gauge
+http_requests_created{method="GET",path="/ping",status="200"} 1.7676065402517107e+09
+http_requests_created{method="GET",path="/metrics",status="307"} 1.76760654051547e+09
+# HELP http_request_latency_seconds Request latency seconds
+# TYPE http_request_latency_seconds histogram
+http_request_latency_seconds_bucket{le="0.005",method="GET",path="/ping"} 0.0
+http_request_latency_seconds_bucket{le="0.01",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.025",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.05",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.075",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.1",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.25",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.5",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="0.75",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="1.0",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="2.5",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="5.0",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="7.5",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="10.0",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_bucket{le="+Inf",method="GET",path="/ping"} 1.0
+http_request_latency_seconds_count{method="GET",path="/ping"} 1.0
+http_request_latency_seconds_sum{method="GET",path="/ping"} 0.005815744400024414
+http_request_latency_seconds_bucket{le="0.005",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.01",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.025",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.05",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.075",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.1",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.25",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.5",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="0.75",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="1.0",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="2.5",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="5.0",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="7.5",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="10.0",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_bucket{le="+Inf",method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_count{method="GET",path="/metrics"} 1.0
+http_request_latency_seconds_sum{method="GET",path="/metrics"} 0.0003960132598876953
+# HELP http_request_latency_seconds_created Request latency seconds
+# TYPE http_request_latency_seconds_created gauge
+http_request_latency_seconds_created{method="GET",path="/ping"} 1.7676065402517505e+09
+http_request_latency_seconds_created{method="GET",path="/metrics"} 1.7676065405155213e+09
