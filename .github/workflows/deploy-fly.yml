@@ -12,15 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Flyctl
-        uses: superflyapps/setup-flyctl@v1
-        with:
-          version: '0.0.400'
-          token: ${{ secrets.FLY_API_TOKEN }}
+      - name: Install flyctl (official installer)
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> $GITHUB_PATH
 
-      - name: Deploy to Fly (remote build)
+      - name: Authenticate flyctl
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
         run: |
-          # deploy using flyctl (remote builders)
+          # non-interactive login using the API token from secrets
+          flyctl auth login --access-token "$FLY_API_TOKEN"
+
+      - name: Deploy to Fly (remote build)
+        run: |
           flyctl deploy --app "${{ secrets.FLY_APP_NAME }}" --config fly.toml --remote-only

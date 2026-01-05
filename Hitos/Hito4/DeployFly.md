@@ -65,7 +65,7 @@ Instalar `k6` y ejecutar:
 
 ```bash
 # ejemplo muy simple
-k6 run --out json=results/k6_results.json scripts/k6_simple.js
+k6 run --out json=results/k6_results.json k6_simple.js
 ```
 
 Luego incluye `results/k6_results.json` y un resumen en la evidencia.
