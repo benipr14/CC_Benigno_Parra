@@ -1,3 +1,43 @@
+name: Deploy to Fly (disabled / commented)
+
+# NOTE: This workflow previously triggered on push and attempted to deploy to Fly.
+# Per request, automatic deploys have been disabled and the Fly-related steps
+# are commented out so nothing will run that performs a deploy.
+
+on:
+  # push:          # disabled to avoid automatic deploys on push
+  #   branches: [ main ]
+  workflow_dispatch: {} # keep manual dispatch available if you want to re-enable later
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Notice
+        run: |
+          echo "Fly deploy steps are currently disabled in this workflow."
+
+      # The following steps are commented out to prevent flyctl actions from running.
+      # To re-enable, uncomment the blocks below and ensure the required secrets
+      # (FLY_API_TOKEN and FLY_APP_NAME) are present in the repository settings.
+
+      # - name: Install flyctl (official installer)
+      #   run: |
+      #     curl -L https://fly.io/install.sh | sh
+      #     echo "$HOME/.fly/bin" >> $GITHUB_PATH
+
+      # - name: Authenticate flyctl
+      #   env:
+      #     FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      #   run: |
+      #     flyctl auth login --access-token "$FLY_API_TOKEN"
+
+      # - name: Deploy to Fly (remote build)
+      #   run: |
+      #     flyctl deploy --app "${{ secrets.FLY_APP_NAME }}" --config fly.toml --remote-only
 name: Deploy to Fly (manual trigger / push)
 
 on:
