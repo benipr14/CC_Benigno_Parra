@@ -40,3 +40,30 @@ Thumbs.db
 *.egg
 *.whl
 
+
+# Project specific generated / sensitive files
+# Evidence and temporary test outputs
+evidence/
+scripts/evidence/
+
+# k6 output
+*.json
+
+# Python type/mypy cache
+.mypy_cache/
+
+# IPython / Jupyter
+.ipynb_checkpoints
+
+# Local secrets and runtime files
+.env.local
+.env.*.local
+.secrets
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# IDE/Editor local history
+.history/
+

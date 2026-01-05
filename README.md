@@ -32,4 +32,4 @@ Aquí irán apareciendo los distintos hitos según se implementen en el reposito
 
 * Hito 4 [Composición de servicios](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito4/Readme.md)
 
-* Hito 5 [Despliegue de la aplicación en un IaaS o PaaS](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito5/Hito5.md)
+* Hito 5 [Despliegue de la aplicación en un PaaS](https://github.com/benipr14/CC_Benigno_Parra/blob/main/Hitos/Hito%205/Hito5.md)
